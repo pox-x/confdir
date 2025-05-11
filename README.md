@@ -10,14 +10,13 @@ CONFDIR is an installation module for the .config directory, designed to simplif
 . If you want to create a command,
   make sure that the $HOME/bin directory is included in your PATH environment variable.
 
-. Create directory $HOME/.config/confdir
+Create the directory if it doesn't already exist in your .config folder.
 ```bash
- mkdir $HOME/bin
+ mkdir $HOME/.config/confdir
 ```
 . Link to your bin directory 
 ```bash
  ln -s $PWD/confdir.fish $HOME/bin/confdir
-
 ```
 . Launch Command
 ```bash
