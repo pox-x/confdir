@@ -170,7 +170,7 @@ $red q$zero -> exit
         else if test $mados = f
             echo "check diff prog: $prog"
             for i in $prog
-                set difs $(diff -r $base/$i $confdir$i)
+                set difs $(diff -r $base/$i $confdir/$i)
                 for a in $difs
                     logs "$a" $i
                 end
