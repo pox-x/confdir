@@ -1,0 +1,180 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   $HOME/.config/ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+# font-family = Iosevka
+# window-padding-x = 2
+#
+# theme = Ciapre
+# #
+# font-family = "JetBrains Mono"
+# font-size = 9
+# window-padding-x = 2
+# #
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = 000000
+# background-blur = true
+# background-opacity = 0.8
+# shell-integration = fish
+# #
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
+
+#  My config syntax
+# ==================
+# theme = Ciapre
+# theme = Apple System Colors
+# theme = GitHub Dark
+theme = catppuccin-mocha
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 1
+
+# file this is the new nerd font
+font-family = "Hurmit Nerd Font Mono"
+# font-family = "Space Mono"
+# font-family = "SF Mono"
+# font-family-bold = "MonaspiceRn NFM"
+# font-family = "MonaspiceRn NFM"
+# font-family = "Monorfur Nerd Font"
+# font-family = "Mononoki Nerd Font Mono"
+# font-family = "iosevkaTermSlab NFP"
+# font-family = "HeavyData Nerd Font"
+# font-family = "Hasklug Nerd Font"
+# font-family = "FantasqueSansM Nerd Font"
+# font-family = "CaskaydiaCove NF"
+# font-family = "CaskaydiaMono NF"
+# font-family = "ArgueDemo"
+# font-family = "JetBrains Mono"
+# font-family = "04b03"
+# font-family = "La Gagliane"
+# font-family = "Aurebesh"
+# font-family = "Aurebesh condensed"
+
+
+font-size = 8.2
+# font-size = 10
+# font-size = 9
+font-style-italic = false
+font-thicken = true
+font-thicken-strength = 0
+
+alpha-blending = linear
+
+adjust-cell-width = -0
+adjust-cell-height = 0
+adjust-cursor-height = -2
+# adjust-cell-height = -1
+# adjust-cell-height = -5
+
+# minimum-contrast = 3
+
+window-padding-x = 10
+window-padding-y = 10
+window-vsync = true
+window-decoration = none
+# window-theme = ghostty
+confirm-close-surface = false
+
+# background=383b3f
+# background=1A1b22
+# background=808283
+# background=b8b6b4
+background=000000
+# background=0c0a29
+# background=0c0a19
+# background=0c0721
+# background=030110
+# background=050d1b
+# background=d3ff52
+# background=03f493
+# background=0d0b09
+# background=050505
+# background=10101d
+# background=0c1021
+# background=161515
+# background=1e222a
+# background=191d24
+# background=191924
+# background=151520
+# background=151520
+# background=212121
+# background=180a1b
+# background=1e1e30
+# background=020a10
+# background=141414
+# background=1d1117
+# background=0a0e13
+# background=010f12
+# background=000608
+# background=050d14
+# background=050f14
+# background=051414
+# background=0c0c0d
+# background=0d0d11
+# background=0a0e12
+# background=000e0f
+# background=0f0f0f
+# background=0a090b
+# background=0f141f
+# background=0f1418
+# background=0d0407
+# background=1f2023
+# background=1f1f20
+# background=181820
+# background=18191C
+
+background-blur = true
+# background-opacity = 0.20
+# background-opacity = 0.42
+# background-opacity = 0.52
+# background-opacity = 0.62
+# background-opacity = 0.65
+# background-opacity = 0.72
+# background-opacity = 0.82
+background-opacity = 0.92
+# background-opacity = 0.98
+# background-opacity = 1.0
+
+cursor-color = ff0000
+cursor-style = underline
+cursor-style-blink = true
+
+link-url = true
+
+cursor-style-blink = true
+shell-integration = fish
+
+keybind = ctrl+f4=quit
+keybind = f5=reload_config
+

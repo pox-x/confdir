@@ -1,0 +1,4 @@
+[cursor]
+shape = "block"
+blink_rate = 300
+animation_fps = 120
