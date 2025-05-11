@@ -2,8 +2,11 @@
 
 echo "status $(status filename)"
 
+set confdir $HOME/.config/confdir
 echo loaded
-source $HOME/.config/dotconfig/fonts/dotconf.fish
+source $confdir/fonts/dotconf.fish
 
 # running main fonction from install.fish files
-source $HOME/.config/dotconfig/bin/main.fish
+source $confdir/bin/main.fish
+
+set -e confdir

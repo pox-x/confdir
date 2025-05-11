@@ -1,7 +1,10 @@
 #! /run/current-system/sw/bin/fish
 
+set confdir $HOME/.config/confdir
 # link nixos title dotconf
-source $HOME/.config/dotconfig/fonts/nix-dotconf.fish
+source $confdir/fonts/nix-dotconf.fish
 
 # running main fonction from install.fish files
-source $HOME/.config/dotconfig/bin/main.fish
+source $confdir/bin/main.fish
+
+set -e confdir
