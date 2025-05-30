@@ -106,55 +106,83 @@ window-decoration = none
 # window-theme = ghostty
 confirm-close-surface = false
 
-# background=383b3f
-# background=1A1b22
-# background=808283
-# background=b8b6b4
+# black
 # background=000000
-# background=0b202e
-# background=0c0a29
-# background=0c0a19
-# background=0c0721
-# background=030110
-# background=050d1b
-# background=d3ff52
-# background=03f493
-# background=0d0b09
-# background=050505
-# background=10101d
-# background=0c1021
-# background=161515
-# background=1e222a
-# background=191d24
-# background=191924
-# background=151520
-# background=151520
-# background=212121
-# background=180a1b
-# background=1e1e30
-# background=020a10
-# background=141414
-# background=1d1117
-# background=0a0e13
-# background=010f12
-# background=000608
-# background=050d14
-# background=050f14
-# background=051414
-# background=0c0c0d
-# background=0d0d11
-# background=0a0e12
-# background=000e0f
-# background=0f0f0f
-# background=0a090b
-# background=0f141f
-# background=0f1418
-# background=0d0407
+
+# white
+# background=ffffff
+
+# gray 0
+# background=383b3f
+
+# dark gray 0
 # background=1f2023
-# background=1f1f20
-# background=181820
-# background=18191C
-background=121113
+
+# dark gray -1
+# background=262624
+
+# dark gray -2
+# background=212121
+
+# white gray
+# background=b8b6b4
+
+# white gray -1
+# background=808283
+
+# blue turquoise 0
+# background=113246
+
+# gray marine 0
+# background=1e1e30
+
+# violet marine +1
+# background=0c0a29
+
+# violet marine 0
+# background=0c0721
+
+# bleu marine 0
+# background=0c1021
+
+# bleu marine -1
+background=070d1c
+
+# blue marine gray 0
+# background=1e222a
+
+# blue marine gray -1
+# background=191d24
+
+# blue marine violet +1
+# background=191924
+
+# blue marine violet +2
+# background=151520
+
+# bleu marine violet 0
+# background=10101d
+
+# blue sky +2
+# background=00283f
+
+# blue sky +1
+# background=00263e
+
+# blue sky 0
+# background=0b202e
+
+# blue magenta 0
+# background=1b202e
+
+# blue maginta -3
+# background=180a1b
+
+# maginta 0
+# background=1d1117
+
+# dark green
+# background=121113
 
 background-blur = true
 # background-opacity = 0.20
@@ -165,9 +193,11 @@ background-blur = true
 # background-opacity = 0.72
 # background-opacity = 0.77
 # background-opacity = 0.82
+background-opacity = 0.87
 # background-opacity = 0.92
 # background-opacity = 0.95
-background-opacity = 0.98
+# background-opacity = 0.96
+# background-opacity = 0.98
 # background-opacity = 1.0
 
 cursor-color = ff0000
